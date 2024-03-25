@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*body{
+    margin-top: 100px;
+}*/
+nav{
+    position: fixed;
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+
+}
+nav .menu{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 ,20px;
+}
+.menu.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+}
+.menu.ul{
+    display: inline;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.menu ul li a hover{
+    background-color: white;
+    color: black;
+}
+main{
+    margin-top: 80px;
+}
+section{
+    display:inline-block;
+}
